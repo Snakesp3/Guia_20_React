@@ -1,7 +1,17 @@
-import React from "react";
+import { click } from '@testing-library/user-event/dist/click';
+import React,{useState} from 'react';
+
+
+
+
 
 const Footer = () => {
-  return (
+  useState[clicks,setclicks] = useState(0);
+  const year = new Date().getFullYear;
+  const NombreDeLaCompania ="Los Picantes"
+  
+
+    return (
     <div>
       <footer class="text-muted py-5">
         <div class="container">
@@ -14,7 +24,7 @@ const Footer = () => {
           </p>
           <p class="mb-0">
             New to Bootstrap?{" "}
-            <a href="https://github.com/Snakesp3">Visit the homepage</a> or read
+            <a href="https://github.com/Snakesp3">Mi Github</a> or read
             our{" "}
             <a href="/docs/5.0/getting-started/introduction/">
               getting started guide
