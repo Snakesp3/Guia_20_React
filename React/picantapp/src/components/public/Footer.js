@@ -6,10 +6,6 @@ import React,{useState} from 'react';
 
 
 const Footer = () => {
-  useState[clicks,setclicks] = useState(0);
-  const year = new Date().getFullYear;
-  const NombreDeLaCompania ="Los Picantes"
-  
 
     return (
     <div>
@@ -23,18 +19,18 @@ const Footer = () => {
             for yourself!
           </p>
           <p class="mb-0">
-            New to Bootstrap?{" "}
+            Quieres ver mi GIT?{" "}
             <a href="https://github.com/Snakesp3">Mi Github</a> or read
             our{" "}
             <a href="/docs/5.0/getting-started/introduction/">
               getting started guide
             </a>
-            .
+            
           </p>
         </div>
       </footer>
     </div>
   );
 };
-
+  
 export default Footer;
